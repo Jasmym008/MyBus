@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    MyBus - Rotas de Ônibus em Tempo Real
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdgNsU/ANL/M8W2cEw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <nav class="nav">
+                <a href="#home" class="logo" aria-label="Voltar para a página inicial">
+                    <i class="fas fa-bus"></i>
+                    <span class="logo-text">MyBus</span>
+                </a>
+                
+ <div class="header-actions">
+                    <a href="#login" class="btn-login">Entrar</a>
+                    <a href="#register" class="btn-register">Cadastrar</a>
+                </div>
+                
+ <button class="mobile-menu-toggle" aria-label="Abrir menu de navegação" aria-expanded="false">
+                    <i class="fas fa-bars"></i>
+                </button>
+                
+ <ul class="nav-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#sobre">Sobre o App</a></li>
+                    <li><a href="#funcionalidades">Funcionalidades</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+ <section id="home" class="hero">
+        <div class="hero-content">
+            <h1 class="animate">Sua próxima viagem, em tempo real.</h1>
+            <p class="animate delay-1">Conectando você às rotas de ônibus com inteligência e praticidade.</p>
+            <a href="#sobre" class="btn animate delay-2">Conheça o MyBus</a>
+        </div>
+    </section>
+
+<section id="sobre" class="section">
+        <div class="container">
+            <h2 class="section-title animate">Sobre o MyBus App</h2>
+            <div class="about-content">
+                <div class="about-text animate delay-1">
+                    <h3>Sua jornada de ônibus mais fácil e inteligente.</h3>
+                    <p>O aplicativo MyBus é a sua solução completa para o transporte público. Com ele, você consegue visualizar as rotas dos ônibus em tempo real, tornando sua rotina mais eficiente e previsível.</p>
+                    <p>Basta adicionar seu ponto de partida e destino, e o MyBus mostrará as paradas mais próximas e diversas opções de ônibus e horários disponíveis. Tenha o controle total da sua viagem!</p>
+                    <p>Nossa plataforma oferece um gráfico com a quantidade usual de passageiros por horário, todos os ônibus já cadastrados para fácil localização de rotas, e preços de tarifa atualizados. Além disso, você pode salvar suas rotas favoritas para acesso rápido.</p>
+                    <p>O MyBus foi criado para simplificar seu dia a dia, proporcionando mais controle sobre seus horários e uma experiência de viagem descomplicada.</p>
+                </div>
+                <div class="about-image animate delay-2">
+                    <img src="https://images.unsplash.com/photo-1544620302-d2789178f5a5?ixlib=rb-4.0.3&auto=format&fit=crop&w=1950&q=80" alt="Pessoa usando um smartphone com mapa de rotas" loading="lazy">
+                </div>
+            </div>
+        </div>
+    </section>
+
+  <section id="funcionalidades" class="section section-alt">
+        <div class="container">
+            <h2 class="section-title animate">Funcionalidades do MyBus</h2>
+            <div class="services-grid">
+                <div class="service-card animate">
+                    <div class="service-icon">
+                        <i class="fas fa-map-marker-alt"></i>
+                    </div>
+                    <h3>Rotas em Tempo Real</h3>
+                    <p>Visualize a localização exata dos ônibus e o tempo estimado de chegada às paradas.</p>
+                </div>
+                <div class="service-card animate delay-1">
+                    <div class="service-icon">
+                        <i class="fas fa-route"></i>
+                    </div>
+                    <h3>Planejamento de Viagem</h3>
+                    <p>Defina seu ponto de partida e destino para encontrar as melhores opções de rotas e horários.</p>
+                </div>
+
+ <div class="service-card animate delay-2">
+                    <div class="service-icon">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <h3>Ocupação Estimada</h3>
+                    <p>Confira gráficos com a estimativa de passageiros por horário para planejar sua viagem com mais conforto.</p>
+                </div>
+
+  <div class="service-card animate delay-3">
+                    <div class="service-icon">
+                        <i class="fas fa-tag"></i>
+                    </div>
+                    <h3>Tarifas Atualizadas</h3>
+                    <p>Tenha acesso rápido aos preços das passagens para todas as rotas.</p>
+                </div>
+
+ <div class="service-card animate delay-4">
+                    <div class="service-icon">
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h3>Rotas Favoritas</h3>
+                    <p>Salve suas rotas mais utilizadas para um acesso ainda mais rápido e prático.</p>
+                </div>
+
+   <div class="service-card animate delay-5">
+                    <div class="service-icon">
+                        <i class="fas fa-clock"></i>
+                    </div>
+                    <h3>Controle de Horários</h3>
+                    <p>Mais previsibilidade em sua rotina com informações precisas sobre os horários dos ônibus.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+ <section id="contato" class="section">
+        <div class="container">
+            <h2 class="section-title animate">Entre em Contato</h2>
+            <div class="contact-wrapper">
+                <div class="contact-info animate delay-1">
+                    <h3>Informações de Contato</h3>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div>
+                            <h4>Endereço</h4>
+                            <p>IFG-CAMPUS VALPARAISO</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div>
+                            <h4>Suporte MyBus</h4>
+                            <p><a href="tel:+551155554321">(11) 5555-4321</a></p>
+                        </div>
+                    </div>
+
+  <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div>
+                            <h4>Email de Suporte</h4>
+                            <p><a href="mailto:My.bus.oficial.brasil@gmail.com">My.bus.oficial.brasil@gmail.com</a></p>
+                        </div>
+                    </div>
+                </div>
+  <div class="contact-form animate delay-2">
+                    <h3>Envie sua Mensagem</h3>
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <label for="name">Nome</label>
+                            <input type="text" id="name" class="form-control" placeholder="Seu nome completo" required>
+                        </div>
+                        
+ <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" class="form-control" placeholder="seu.email@exemplo.com" required>
+                        </div>
+                        
+ <div class="form-group">
+                            <label for="message">Mensagem</label>
+                            <textarea id="message" class="form-control" placeholder="Sua mensagem aqui..." required></textarea>
+                        </div>
+                        
+<button type="submit" class="btn">Enviar Mensagem</button>
+                    </form>
+                    <div id="formMessage" class="form-message mt-3" aria-live="polite"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+  <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <div class="social-links">
+                        <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+
+  <div class="footer-column">
+                    <h3>Links Rápidos</h3>
+                    <ul class="footer-links">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#sobre">Sobre o App</a></li>
+                        <li><a href="#funcionalidades">Funcionalidades</a></li>
+                        <li><a href="#contato">Contato</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Recursos</h3>
+                    <ul class="footer-links">
+                        <li><a href="#">Perguntas Frequentes</a></li>
+                        <li><a href="#">Termos de Uso</a></li>
+                        <li><a href="#">Política de Privacidade</a></li>
+                    </ul>
+                </div>
+            </div>
+
+ <div class="copyright">
+                <p>&copy; 2025 MyBus App. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>  
